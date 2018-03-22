@@ -34,6 +34,8 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 gem 'carrierwave'
+gem 'fog'
+gem 'figaro'
 gem 'faker'
 
 group :development, :test do
@@ -50,6 +52,7 @@ group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console', '>= 3.3.0'
 end
+
 group :production do
 	gem 'pg'
 	gem 'rails_12factor'
